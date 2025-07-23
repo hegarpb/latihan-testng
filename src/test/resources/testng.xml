@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Latihan Testng">
+  <test name="Test1">
+    <classes>
+      <class name="com.juaracoding.testng1.MultipleTest"></class>
+      <class name="com.juaracoding.testng1.FibonacciTest"></class>
+    </classes>
+  </test>
+  <test name="Test2">
+  <parameter name="username" value="johansebastian"></parameter>
+    <parameter name="invalidUsername" value="jonosebastian"></parameter>
+    <parameter name="password" value="123qwe"></parameter>
+    <parameter name="email" value="johan@sebastian.com"></parameter>
+    <classes>
+      <class name="com.juaracoding.testng2.SignInTest"></class>
+      <class name="com.juaracoding.testng2.KasirTest"></class>
+    </classes>
+  </test>
+</suite>
