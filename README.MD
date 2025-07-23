@@ -20,5 +20,5 @@ berisi kelas SignInTest.java untuk melakukan pengujian otomatis simulasi login s
 ## Analisis
 
 Dari kedua hasil laporan test diatas bisa dilihat bahwa test menggunakan metode sekuensial lebih cepat dengan total (4 menit) dibandingkan test paralel dengan total (5 menit). Semua test ber status pass (berhasil) dengan total (10500) methods.
-Secara teori seharusnya test paralel lebih cepat dibandingkan test sekuensial, karena test sekuensial menlakukan eksekusi satu per satu (satu thread ) sedangkan test paralel melakukan beberapa thread secara bersamaan, namun dalam kasus ini test sekuensial lebih cepat daripada test parallel.
+Secara teori seharusnya test paralel lebih cepat dibandingkan test sekuensial, karena test sekuensial melakukan eksekusi satu per satu (satu thread ) sedangkan test paralel melakukan beberapa thread secara bersamaan, namun dalam kasus ini test sekuensial lebih cepat daripada test parallel.
 Kenapa ini bisa terjadi ? mungkin perlu kita teliti lebih dalam terkait faktor faktor apa saja yang membuat hasil test sekuensial lebih cepat dibandingkan test paralel dalam kasus ini .
